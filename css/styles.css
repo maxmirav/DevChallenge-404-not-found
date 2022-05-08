@@ -54,11 +54,42 @@ button {
 /* MAIN
 ========================================================================== */
 
+/* pakiayos mamaya tong header */
+.header-container {   
+    margin-top: 40px;
+    padding-left: 5%;
+}
+
 section {
     display: flex;
+}
+
+img {
+    width: 40%;
+}
+
+.text-container {
+    width: 40%;
 }
 
 button {
     display: block;
 }
+
+/* RESPONSIVENESS
+========================================================================== */
+
+@media only screen and (max-width: 768px) {
+
+    section {
+        flex-direction: column;
+    }
+    img {
+        width: 80%;
+    }
+
+    .text-container {
+        width: 80%;
+    }
+  }
 

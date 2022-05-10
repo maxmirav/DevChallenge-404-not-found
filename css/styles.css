@@ -54,18 +54,30 @@ button {
 /* MAIN
 ========================================================================== */
 
-/* pakiayos mamaya tong header */
-.header-container {   
-    margin-top: 40px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
     padding-left: 5%;
+    flex: 1;
+}
+
+.header-container {   
+    margin-top: 20px;
 }
 
 section {
+    margin-top: 50px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 img {
-    width: 40%;
+    width: 440px;
 }
 
 .text-container {
@@ -74,6 +86,10 @@ img {
 
 button {
     display: block;
+}
+
+footer {
+    justify-content: flex-end;
 }
 
 /* RESPONSIVENESS
@@ -85,7 +101,7 @@ button {
         flex-direction: column;
     }
     img {
-        width: 80%;
+        width: 70%;
     }
 
     .text-container {

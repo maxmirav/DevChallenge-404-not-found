@@ -36,14 +36,11 @@
 
 ## Overview
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Was dipping my toes into Flexbox again. Had to relearn a lot of things since I haven't done any web programming at all for the last six months. 
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Used a lot of percentages(%) when it comes to sizes and spacings, plus I'm pretty sure I have a lot of unnecessary CSS in there, but I think I did okay.
 
 ### Built With
 
@@ -63,8 +60,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [Kevin Powell's Responsive Design course](https://courses.kevinpowell.co/conquering-responsive-layouts)
 
 ## Contact
 
